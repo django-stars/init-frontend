@@ -11,6 +11,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "test": "./node_modules/.bin/eslint **/*.js"
+  },
   "dependencies": {
     "chalk": "^4.0.0",
     "commander": "^5.0.0",
