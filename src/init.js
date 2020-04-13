@@ -188,9 +188,9 @@ function init(
         rimraf.sync(path.join(dest, 'src/app/store'))
         fs.removeSync(path.join(dest, 'src/app/App.js'))
         fs.removeSync(path.join(dest, 'src/app/cache.js'))
-        fs.removeSync(path.join(dest, 'src/app/index.js'))
         fs.removeSync(path.join(dest, 'src/app/init.js'))
         fs.removeSync(path.join(dest, 'src/app/routes.js'))
+        fs.writeFile(path.join(dest, 'src/app/index.js'), `import 'polyfills'\nimport '../styles/index.scss'\n`)
       }
 
       try {
