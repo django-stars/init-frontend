@@ -1,12 +1,12 @@
 {
-  "name": "ds-skeleton",
+  "name": "ds-JS-skeleton",
   "version": "3.0.0-beta",
   "author": "DjangoStars <info@djangostars.com> (https://github.com/django-stars/)",
   "contributors": [
     "Alexander Gulchenko <aleksandr.gulchenko@gmail.com>"
   ],
   "bin": {
-    "ds-skeleton": "bin/index.js"
+    "ds-JS-skeleton": "bin/index.js"
   },
   "publishConfig": {
     "access": "public"
