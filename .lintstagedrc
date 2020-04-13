@@ -1,0 +1,8 @@
+{
+  "src/*.js": [
+    "eslint"
+  ],
+  "bin/*.js": [
+    "eslint"
+  ]
+}
