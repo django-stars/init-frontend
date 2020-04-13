@@ -1,6 +1,6 @@
 {
   "name": "@django-stars/skeleton",
-  "version": "3.0.0-beta",
+  "version": "3.0.1-beta",
   "author": "DjangoStars <info@djangostars.com> (https://github.com/django-stars/)",
   "contributors": [
     "Alexander Gulchenko <aleksandr.gulchenko@gmail.com>"
