@@ -4,15 +4,15 @@ The easiest way to install DS front-end skeleton is to use the command line tool
 
 
 ```
-npx ds-js-skeleton init [projectName] [folderName]
+npx @django-stars/skeleton init [projectName] [folderName]
 ```
 Example
 ```
-npx ds-js-skeleton init ds-site client
+npx @django-stars/skeleton init ds-site client
 ```
 or
 ```
-npx ds-js-skeleton init
+npx @django-stars/skeleton init
 ```
 
 If you do not specify name or template, it will prompt you for them.
