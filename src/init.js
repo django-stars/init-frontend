@@ -123,7 +123,7 @@ function updateEnvFile(path, { backendUrl, projectType }) {
   })
 
   function transform(line) {
-    if(line.includes('BACKEND_URL') && backendUrl) {
+    if(line.includes('BACKEND_URL=') && backendUrl) {
       return this.output.write(`BACKEND_URL=${backendUrl}\n`)
     }
     if(line.includes('SSR=') && (projectType === 'MPA' || projectType === 'MPA & REACT')) {
